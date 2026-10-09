@@ -183,7 +183,8 @@
       return { kind: 'bare', tense, verb: v.inf, p, prompt, sub: `${v.inf} · third conditional`, a, placeholder: 'ex. : would have done' };
     }
     if (CONTEXT[tense] && Math.random() < 0.6) {
-      return { kind: 'context', tense, verb: v.inf, p, prompt: `${pick(CONTEXT[tense])}, ${subj} ___ ${v.c}.`, sub: `${v.inf} · ${v.fr}`, a };
+      const ctx = pick(CONTEXT[tense]);
+      return { kind: 'context', tense, verb: v.inf, p, prompt: `${ctx}, ${subj} (${v.inf}) ___ ${v.c}.`, sub: v.fr, a, full: `${ctx}, ${subj} ${a[0]} ${v.c}.` };
     }
     return { kind: 'bare', tense, verb: v.inf, p, prompt: `${subj} · ${v.inf}`, sub: NAMES[tense], a };
   }
