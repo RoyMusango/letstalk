@@ -17,8 +17,8 @@
     bank: [
       { q: 'I ___ (live) in Brussels since 2021.', a: ['have lived', 'have been living'] },
       { q: 'We ___ (meet) the supervisor last Tuesday.', a: ['met'] },
-      { q: '___ you ever worked in a bank?', a: ['have'] },
-      { q: 'When ___ you start your internship?', a: ['did'] },
+      { q: '___ you ever worked in a bank?', hint: 'Auxiliaire du present perfect (question)', a: ['have'] },
+      { q: 'When ___ you start your internship?', hint: 'Auxiliaire du past simple (question)', a: ['did'] },
       { q: 'The model ___ (improve) a lot since we added more data.', a: ['has improved'] },
       { q: 'I ___ (not finish) the literature review yet.', a: ['haven’t finished', "haven't finished", 'have not finished'] },
       { q: 'She ___ (join) the risk team two years ago.', a: ['joined'] },
@@ -91,7 +91,7 @@
       { q: 'If the client ___ (default), the bank will seize the collateral.', a: ['defaults'] },
       { q: 'If he had accepted the offer, he ___ (live) in London now.', a: ['would be living', 'would live', 'd be living'] },
       { q: '___ I known, I would have told you. (inversion)', a: ['had'] },
-      { q: 'We won’t get funding ___ we show a working prototype.', a: ['unless'] },
+      { q: 'We won’t get funding ___ we show a working prototype.', hint: 'Conjonction : « à moins que »', a: ['unless'] },
       { q: 'If I ___ (be) you, I would ask for an extension.', a: ['were', 'was'] },
       { q: 'Choisis : « Si j’avais su, je serais venu. »', a: ['If I had known, I would have come'], opts: ['If I would have known, I would have come', 'If I had known, I would have come', 'If I knew, I would have come'] },
     ],
@@ -152,13 +152,13 @@
 <p>Questions indirectes : ordre affirmatif. <i>He asked where the meeting <b>was</b></i> (pas <s>where was the meeting</s>).</p>
 <p>Verbes plus précis : <i>suggest (that) / recommend doing / admit / deny / claim / point out / warn</i>.</p>`,
     bank: [
-      { q: '“I am working on it.” → She said she ___ on it.', a: ['was working'] },
-      { q: '“We have fixed the bug.” → They said they ___ the bug.', a: ['had fixed'] },
-      { q: '“I will send the report.” → He said he ___ the report.', a: ['would send'] },
+      { q: '“I am working on it.” → She said she ___ on it.', hint: 'Discours indirect : « am working » recule d’un temps', a: ['was working'] },
+      { q: '“We have fixed the bug.” → They said they ___ the bug.', hint: 'Discours indirect : « have fixed » recule d’un temps', a: ['had fixed'] },
+      { q: '“I will send the report.” → He said he ___ the report.', hint: 'Discours indirect : « will send » recule d’un temps', a: ['would send'] },
       { q: 'My supervisor ___ me that the chapter was too long.', a: ['told'], opts: ['said', 'told'] },
       { q: 'She ___ that the deadline had moved.', a: ['said'], opts: ['said', 'told'] },
-      { q: 'He asked me where the meeting room ___.', a: ['was'] },
-      { q: '“Can you join us?” → They asked if I ___ join them.', a: ['could'] },
+      { q: 'He asked me where the meeting room ___.', hint: 'be au passé (question indirecte : pas d’inversion)', a: ['was'] },
+      { q: '“Can you join us?” → They asked if I ___ join them.', hint: 'Discours indirect : « can » recule d’un temps', a: ['could'] },
       { q: 'The auditor suggested ___ (review) the access logs.', a: ['reviewing', 'that we review', 'that we should review'] },
     ],
     speak: ['Report what your supervisor told you in your last meeting.', 'Tell me what the interviewer asked you in a recent interview.'],
@@ -166,6 +166,7 @@
 
   T.relative_clauses = {
     label: 'Propositions relatives', level: 'B2',
+    hint: 'Pronom relatif : who, which, that, whose, where, what',
     fiche: `
 <p><b>who</b> (personnes), <b>which</b> (choses), <b>that</b> (les deux, seulement en relative déterminative), <b>whose</b> (dont, possession), <b>where</b>, <b>when</b>.</p>
 <p><b>Déterminative</b> (sans virgules, indispensable au sens) : <i>The model <b>that</b> we deployed is open-source.</i> On peut omettre le relatif s’il est complément : <i>The model we deployed…</i></p>
@@ -241,7 +242,7 @@
       { q: 'Could you give me some ___ on my draft? (retours)', a: ['feedback'] },
       { q: 'I need ___ information about the programme.', a: ['some', 'more'], opts: ['an', 'some', 'many'] },
       { q: 'We haven’t made ___ progress this week.', a: ['much'], opts: ['many', 'much'] },
-      { q: 'She gave me a great piece of ___.', a: ['advice'] },
+      { q: 'She gave me a great piece of ___.', hint: '« conseil » (indénombrable)', a: ['advice'] },
       { q: 'There were very ___ participants at the workshop.', a: ['few'], opts: ['few', 'little'] },
       { q: 'The news ___ good today.', a: ['is'], opts: ['is', 'are'] },
       { q: 'He has done a lot of ___ on RAG systems. (recherches)', a: ['research'] },
@@ -251,6 +252,7 @@
 
   T.prepositions = {
     label: 'Prépositions & verbes prépositionnels', level: 'B2',
+    hint: 'Préposition',
     fiche: `
 <ul><li><i>depend <b>on</b>, rely <b>on</b>, focus <b>on</b>, insist <b>on</b>, comment <b>on</b></i></li>
 <li><i>interested <b>in</b>, involved <b>in</b>, invest <b>in</b>, specialise <b>in</b>, succeed <b>in</b> doing</i></li>
@@ -281,13 +283,13 @@
 <li><b>Conditionnel inversé</b> : <i><b>Had</b> we known… <b>Should</b> you need help… <b>Were</b> it not for…</i></li>
 <li><b>Phrases clivées</b> (cleft) : <i><b>What</b> we need <b>is</b> more data. <b>It was</b> the latency <b>that</b> caused the problem. <b>The reason why</b>… <b>is that</b>…</i></li></ul>`,
     bank: [
-      { q: 'Never ___ I seen such a fast model. (inversion)', a: ['have'] },
-      { q: 'Not only ___ the system reduce costs, but it also improved accuracy.', a: ['did'] },
+      { q: 'Never ___ I seen such a fast model. (inversion)', hint: 'Auxiliaire du present perfect après « Never »', a: ['have'] },
+      { q: 'Not only ___ the system reduce costs, but it also improved accuracy.', hint: 'Auxiliaire du past simple après « Not only »', a: ['did'] },
       { q: '___ you need any further information, please contact me. (= If you need)', a: ['should'] },
       { q: '___ we need is a clearer evaluation protocol. (clivée)', a: ['what'] },
-      { q: 'It ___ the retrieval step that caused the errors.', a: ['was'] },
-      { q: 'Rarely ___ banks share their internal data.', a: ['do'] },
-      { q: 'Only after the audit ___ we discover the problem.', a: ['did'] },
+      { q: 'It ___ the retrieval step that caused the errors.', hint: 'be au passé (phrase clivée : « c’était… qui »)', a: ['was'] },
+      { q: 'Rarely ___ banks share their internal data.', hint: 'Auxiliaire du present simple après « Rarely »', a: ['do'] },
+      { q: 'Only after the audit ___ we discover the problem.', hint: 'Auxiliaire du past simple après « Only after »', a: ['did'] },
       { q: '___ it not for your help, I would have failed. (= If it were not)', a: ['were'] },
     ],
     speak: ['Present the main achievement of your internship in an emphatic way (use one inversion and one cleft sentence).'],
@@ -331,13 +333,13 @@
     bank: [
       { q: 'Courant : « but » → soutenu : ___', a: ['however', 'nevertheless', 'nonetheless'] },
       { q: 'Courant : « so » (conséquence) → soutenu : ___', a: ['therefore', 'consequently', 'hence', 'thus'] },
-      { q: 'The results show → The results ___', a: ['demonstrate', 'indicate', 'reveal', 'suggest'] },
-      { q: 'We looked at the data → We ___ the data.', a: ['examined', 'analysed', 'analyzed', 'investigated', 'assessed'] },
-      { q: 'We got good results → We ___ good results.', a: ['obtained', 'achieved'] },
-      { q: 'A lot of banks → A ___ number of banks', a: ['significant', 'substantial', 'considerable', 'large'] },
-      { q: 'Nuancer : « This method is better. » → This method ___ to perform better.', a: ['appears', 'seems', 'tends'] },
-      { q: 'E-mail formel : « I ___ be grateful if you could send me the dataset. »', a: ['would'] },
-      { q: 'E-mail formel, première phrase : « I am ___ to ask about the internship. »', a: ['writing'] },
+      { q: 'The results show → The results ___', hint: 'Synonyme soutenu de « show » (present simple)', a: ['demonstrate', 'indicate', 'reveal', 'suggest'] },
+      { q: 'We looked at the data → We ___ the data.', hint: 'Synonyme soutenu de « looked at » (past simple)', a: ['examined', 'analysed', 'analyzed', 'investigated', 'assessed'] },
+      { q: 'We got good results → We ___ good results.', hint: 'Synonyme soutenu de « got » (past simple)', a: ['obtained', 'achieved'] },
+      { q: 'A lot of banks → A ___ number of banks', hint: 'Adjectif soutenu : « un nombre important de »', a: ['significant', 'substantial', 'considerable', 'large'] },
+      { q: 'Nuancer : « This method is better. » → This method ___ to perform better.', hint: 'Verbe de nuance : « semble » (present simple)', a: ['appears', 'seems', 'tends'] },
+      { q: 'E-mail formel : « I ___ be grateful if you could send me the dataset. »', hint: 'Modal du conditionnel : « je vous serais reconnaissant »', a: ['would'] },
+      { q: 'E-mail formel, première phrase : « I am ___ to ask about the internship. »', hint: 'write en -ing : « je vous écris pour… »', a: ['writing'] },
     ],
     speak: ['Summarise your thesis topic in a formal, academic register (1 minute).', 'Leave a formal voicemail to a recruiter asking to reschedule an interview.'],
   };
