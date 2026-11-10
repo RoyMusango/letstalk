@@ -115,6 +115,7 @@
       { q: 'That figure ___ (be) right, it’s far too high! (impossible)', a: ['can’t be', "can't be", 'cannot be'] },
       { q: 'You ___ (bring) your laptop, we had spares. (fait pour rien)', a: ['needn’t have brought', "needn't have brought"] },
       { q: 'She’s been working all night. She ___ (be) exhausted.', a: ['must be'] },
+      { q: 'Someone’s at the door. It ___ (be) the courier, I ordered a laptop. (déduction quasi certaine)', a: ['must be'] },
     ],
     speak: ['Your model suddenly performs worse in production. Speculate: what might have happened?', 'Tell me about something you should have done differently in a past project.'],
   };
@@ -246,6 +247,8 @@
       { q: 'There were very ___ participants at the workshop.', a: ['few'], opts: ['few', 'little'] },
       { q: 'The news ___ good today.', a: ['is'], opts: ['is', 'are'] },
       { q: 'He has done a lot of ___ on RAG systems. (recherches)', a: ['research'] },
+      { q: 'How ___ data do we need to fine-tune the model?', a: ['much'], opts: ['much', 'many'] },
+      { q: 'There ___ (be) a lot of useful information in the report.', a: ['is'] },
     ],
     speak: ['What advice would you give to a student starting an internship in a bank?'],
   };
@@ -311,12 +314,14 @@
       { q: 'I’d rather you ___ (not share) the draft yet.', a: ['didn’t share', "didn't share"] },
       { q: 'It’s high time we ___ (make) a decision.', a: ['made'] },
       { q: 'I wish the train ___ (arrive) on time for once. (agacement)', a: ['would arrive'] },
+      { q: 'I wish you ___ (stop) interrupting me. (agacement)', a: ['would stop'] },
     ],
     speak: ['What do you wish you had known before starting your studies?'],
   };
 
   T.registro = {
     label: 'Registre professionnel & académique', level: 'C1',
+    hint: 'Équivalent en registre soutenu',
     fiche: `
 <p>Monter en registre sans devenir pompeux :</p>
 <table><tr><th>Courant</th><th>Professionnel / académique</th></tr>
@@ -346,6 +351,7 @@
 
   T.false_friends = {
     label: 'Faux amis', level: 'B2',
+    hint: 'Le mot juste en anglais : attention au faux ami',
     fiche: `
 <table><tr><th>Mot anglais</th><th>Sens réel</th><th>Pour dire…</th></tr>
 <tr><td>actually</td><td>en fait</td><td>actuellement → <i>currently</i></td></tr>
