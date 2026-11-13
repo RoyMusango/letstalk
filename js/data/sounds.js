@@ -19,5 +19,5 @@ window.SOUNDS = [
     tip: 'Dis les phrases d’un seul souffle, en appuyant seulement sur les mots importants.',
     words: [{ w: 'I want to go' }, { w: 'a cup of tea' }, { w: 'It’s for you' }, { w: 'I can do it' }, { w: 'What do you think?' }, { w: 'from time to time' }] },
   { id: 'tech', label: 'Mots techniques et financiers', fr: 'Ceux qu’on écorche le plus souvent en réunion.',
-    words: [{ w: 'data' }, { w: 'accuracy' }, { w: 'Wednesday' }, { w: 'entrepreneur' }, { w: 'finance' }, { w: 'infrastructure' }, { w: 'cache' }, { w: 'queue' }, { w: 'privacy' }, { w: 'regulatory' }] },
+    words: [{ w: 'data' }, { w: 'accuracy' }, { w: 'liquidity' }, { w: 'entrepreneur' }, { w: 'finance' }, { w: 'infrastructure' }, { w: 'cache' }, { w: 'queue' }, { w: 'privacy' }, { w: 'regulatory' }] },
 ];

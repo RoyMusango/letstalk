@@ -1,4 +1,4 @@
 /* Couleurs propres à l'app : Royaume-Uni (Union Jack) */
-:root { --accent: #c8102e; --accent-2: #012169; --brand-mark: linear-gradient(90deg, #012169 50%, #c8102e 50%); }
+:root { --accent: #c8102e; --accent-2: #012169; --brand-mark: linear-gradient(90deg, #012169 50%, #c8102e 50%); --hero: linear-gradient(125deg, #012169 0%, #5a1a55 58%, #c8102e 100%); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #ff5a6e; --accent-2: #6d8fe0; } }
 :root[data-theme="dark"] { --accent: #ff5a6e; --accent-2: #6d8fe0; }

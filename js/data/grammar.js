@@ -182,7 +182,7 @@
       { q: '___ worries me is the latency.', a: ['what'] },
       { q: 'He missed the deadline, ___ annoyed his supervisor.', a: ['which'], opts: ['what', 'which', 'that'] },
       { q: 'That’s the city ___ I’ll do my Erasmus.', a: ['where', 'in which'] },
-      { q: 'The paper ___ I told you is now published. (dont = about)', a: ['about'] },
+      { q: 'The paper I told you ___ is now published.', hint: '« Dont » : la préposition rejetée en fin de relative', a: ['about'] },
     ],
     speak: ['Describe the tools you used in your internship, using relative clauses.'],
   };

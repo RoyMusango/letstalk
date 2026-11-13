@@ -6,7 +6,7 @@ Could you elaborate on that? | Pouvez-vous développer ? | Could you expand on t
 Let me rephrase that. | Je reformule. | Let me put it another way.; In other words
 Just to clarify, … | Juste pour clarifier… | Just to be clear; If I understand correctly
 Bear with me. | Patientez une seconde. | Give me a second.; Hang on a moment.
-That’s a fair point. | C’est un argument valable. | Point taken.; I take your point.
+That’s a fair point. | C’est une remarque juste. | Point taken.; I take your point.
 I see where you’re coming from. | Je comprends ton point de vue. | I get what you mean.
 To put it simply, … | Pour faire simple… | In a nutshell; Simply put
 Let’s circle back to that. | Revenons-y plus tard. | Let’s come back to that later.
@@ -15,7 +15,7 @@ Moving on to … | Passons à… | Turning to; Let’s now look at
 I’d like to follow up on … | J’aimerais revenir sur… | I wanted to check in on
 What’s the next step? | Quelle est la prochaine étape ? | Where do we go from here?
 I’m not sure I follow. | Je ne suis pas sûr de suivre. | I’m afraid I’ve lost you.
-Off the top of my head, … | À brûle-pourpoint… | Without checking; Roughly
+Off the top of my head, … | De tête, sans vérifier… | Without checking; From memory
 I’ll get back to you on that. | Je reviens vers vous là-dessus. | I’ll look into it and let you know.
 on the same page | sur la même longueur d’onde | aligned; in agreement
 a quick catch-up | un petit point rapide | a quick sync; a brief update
@@ -61,7 +61,7 @@ to look forward to (doing) | avoir hâte de | to anticipate
 the bottom line | l’essentiel, le résultat net | the key point; the crux
 a ballpark figure | un chiffre approximatif | a rough estimate
 to cut corners | bâcler, rogner sur la qualité | to skimp
-a steep learning curve | un apprentissage difficile au début | a challenging start
+a steep learning curve | beaucoup à apprendre en peu de temps | a challenging start
 ahead of the curve | en avance sur les autres | cutting-edge; ahead of the game
 back to square one | retour à la case départ | back to the drawing board
 the elephant in the room | le problème que tout le monde évite | the obvious issue
@@ -91,7 +91,7 @@ to conduct research | mener des recherches | to carry out research; to do resear
 to raise a concern | exprimer une inquiétude | to voice a concern; to flag an issue
 to address an issue | traiter un problème | to tackle an issue; to deal with an issue
 to meet a deadline | respecter une échéance | to hit a deadline
-to miss a deadline | rater une échéance | to overrun
+to miss a deadline | dépasser une échéance | to overrun
 to draw a conclusion | tirer une conclusion | to conclude
 to reach a consensus | parvenir à un consensus | to agree
 to pose a risk | représenter un risque | to present a risk
@@ -110,7 +110,7 @@ a sharp increase | une forte hausse | a steep rise; a surge
 a slight decrease | une légère baisse | a small drop; a dip
 a high risk | un risque élevé | a significant risk
 to make progress | progresser | to move forward
-to do business with | faire affaire avec | to trade with
+to do business with | faire des affaires avec | to trade with
 to give a presentation | faire une présentation | to deliver a presentation
 ` },
     formal: { label: 'Registre soutenu & connecteurs', prio: 1, words: `
@@ -120,7 +120,7 @@ whereas | alors que (opposition) | while; by contrast
 albeit | bien que, quoique | although; though
 notwithstanding | nonobstant, malgré | despite; in spite of
 hence | d’où, par conséquent | therefore; thus
-thereby | de ce fait | in so doing; consequently
+thereby | ainsi, de ce fait | in so doing; consequently
 in light of | à la lumière de | given; in view of
 with regard to | en ce qui concerne | regarding; as regards
 as opposed to | par opposition à | rather than; unlike
@@ -260,7 +260,7 @@ asset management | gestion d’actifs | fund management
 balance sheet | bilan | statement of financial position
 profit and loss (P&L) | compte de résultat | income statement
 collateral | garantie, sûreté | security
-mortgage | prêt immobilier | home loan
+mortgage | prêt hypothécaire | home loan
 to default | faire défaut | to fail to repay
 underwriting | souscription, analyse de crédit | risk assessment
 Know Your Customer (KYC) | connaissance du client | customer due diligence
@@ -268,7 +268,7 @@ anti-money laundering (AML) | lutte contre le blanchiment | AML compliance
 compliance | conformité | regulatory compliance
 regulator | régulateur | supervisory authority
 fraud detection | détection de fraude | fraud prevention
-credit scoring | notation de crédit | credit rating
+credit scoring | notation de crédit (score d’un emprunteur) | credit assessment
 fintech | fintech | financial technology
 shareholder | actionnaire | stockholder
 dividend | dividende | payout
@@ -291,7 +291,7 @@ dashboard | tableau de bord | reporting tool
 scenario analysis | analyse de scénarios | scenario planning
 Monte Carlo simulation | simulation de Monte-Carlo | stochastic simulation
 decision tree | arbre de décision | decision diagram
-expected value | espérance | mean outcome
+expected value | espérance (mathématique), valeur attendue | mean outcome
 uncertainty | incertitude | unpredictability
 to weigh up | peser (le pour et le contre) | to evaluate; to consider
 pros and cons | avantages et inconvénients | advantages and drawbacks
@@ -300,7 +300,7 @@ data-driven | fondé sur les données | evidence-based
 ` },
     academic: { label: 'Thèse & présentation', prio: 2, words: `
 thesis | mémoire, thèse | dissertation
-supervisor | directeur de mémoire | advisor (AmE); promoter
+supervisor | directeur de mémoire, promoteur | advisor (AmE); thesis supervisor
 literature review | revue de la littérature | state of the art
 methodology | méthodologie | approach
 findings | résultats | results
@@ -320,10 +320,10 @@ peer review | évaluation par les pairs | refereeing
 graduate programme | programme jeunes diplômés | graduate scheme
 internship | stage | placement; work experience
 to apply for a position | postuler à un poste | to apply for a job
-cover letter | lettre de motivation | motivation letter
+cover letter | lettre de motivation | covering letter (BrE)
 strengths and weaknesses | forces et faiblesses |
 I’m a quick learner. | J’apprends vite. | I pick things up quickly.
-I thrive under pressure. | Je m’épanouis sous pression. | I work well under pressure.
+I thrive under pressure. | Je donne le meilleur de moi-même sous pression. | I work well under pressure.
 team player | qui a l’esprit d’équipe | collaborative
 salary expectations | prétentions salariales | expected salary
 notice period | préavis |
@@ -351,15 +351,15 @@ knackered | crevé | exhausted; shattered
 gutted | dégoûté, très déçu | devastated
 chuffed | ravi | delighted; pleased
 to fancy (doing) | avoir envie de | to feel like
-cheers | merci, santé | thanks
+cheers | merci ; santé ! | thanks
 mate | pote | buddy (AmE); pal
 Hang on. | Attends. | Hold on.; Wait a sec.
 No worries. | Pas de souci. | No problem.
 to grab a coffee | prendre un café | to get a coffee
 It’s up to you. | C’est toi qui vois. | Your call.
 a bit | un peu | slightly; a little
-to sort of / kind of | un peu, plus ou moins | somewhat
-Fair enough. | D’accord, c’est juste. | Okay, that’s reasonable.
+sort of / kind of | un peu, plus ou moins | somewhat
+Fair enough. | Ça se tient, d’accord. | Okay, that’s reasonable.
 I’m keen on … | J’aime bien… | I’m into
 ` },
   };

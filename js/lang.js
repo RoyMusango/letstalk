@@ -27,7 +27,7 @@ window.LANG = {
     vocabPrioDefault: n => `${n} thèmes actifs : phrasal verbs, collocations, registre soutenu, finance, IA et RAG.`,
     startConv: '(Start the conversation.)',
     rescue: ['Sorry, could you say that again?', 'What’s the word for … ?', 'It’s a kind of … that you use to …', 'Let me rephrase that.'],
-    circumlocution: ['It’s a kind of … that…', 'It’s the thing you use to…', 'It’s the opposite of…', 'It’s similar to…, but…', 'What’s the word for « … »?'],
+    circumlocution: ['It’s a kind of … that…', 'It’s the thing you use to…', 'It’s the opposite of…', 'It’s similar to…, but…', 'What’s the word for “…”?'],
     lookupPlaceholder: 'ex. : se débrouiller, taux directeur, un pari risqué',
   },
   courseThemesNote: '',
